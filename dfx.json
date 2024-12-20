@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "GENXHackathon_backend": {
+      "main": "src/GENXHackathon_backend/main.mo",
+      "type": "motoko"
+    },
+    "GENXHackathon_frontend": {
+      "dependencies": [
+        "GENXHackathon_backend"
+      ],
+      "source": [
+        "src/GENXHackathon_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "GENXHackathon_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
