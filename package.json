@@ -14,5 +14,8 @@
   "type": "module",
   "workspaces": [
     "src/GENXHackathon_frontend"
-  ]
+  ],
+  "dependencies": {
+    "firebase": "^11.1.0"
+  }
 }
